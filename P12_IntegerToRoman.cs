@@ -2,6 +2,17 @@
 
 namespace LeetCode
 {
+    // Problem: Given an integer, convert it to a roman numeral. Input is guaranteed to be within the range from 1 to 3999.
+    // ===================================================================================================
+    // Examples:
+    // Input: 58
+    // Output: "LVIII"
+    // Explanation: L = 50, V = 5, III = 3.
+    //
+    // Input: 1994
+    // Output: "MCMXCIV"
+    // Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
+    
     public class Solution
     {
         public string IntToRoman(int num)
