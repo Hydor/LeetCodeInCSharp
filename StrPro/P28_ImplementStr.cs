@@ -16,6 +16,8 @@ namespace LeetCode.StrPro
             return haystack.IndexOf(needle);
         }
 
+        
+        //  53.38%    64%
         public static int StrStr2(string haystack, string needle)
         {
             if (needle.Length == 0) return 0;
