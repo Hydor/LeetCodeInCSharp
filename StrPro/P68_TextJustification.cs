@@ -7,6 +7,7 @@ namespace LeetCode.StrPro
 {
     class P68_TextJustification
     {
+         // 97.83%      26.32%
         public static IList<string> FullJustify(string[] words, int maxWidth)
         {
             var list = new List<string>();
