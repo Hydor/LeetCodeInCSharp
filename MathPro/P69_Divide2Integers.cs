@@ -8,6 +8,8 @@ namespace LeetCode.MathPro
 {
     class P69_Divide2Integers
     {
+        // This is not my solution. It writen by nuzzdev. 
+        //https://leetcode.com/problems/divide-two-integers/discuss/279398/C-(includes-comments)-Bit-Shifting-Recursive-Accumulation-40ms-beats-100-of-solutions
         private int DivideRec(int dividend, int divisor, int pow)
         {
             if (pow < 0)
