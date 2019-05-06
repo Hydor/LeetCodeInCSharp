@@ -57,5 +57,31 @@ namespace LeetCode.MathPro
 
             return result;
         }
+        
+        //重复减法
+        public static int Divide2(int dividend, int divisor)
+        {
+            var isM1 = (dividend < 0) ? true : false;
+            var isM2 = (divisor < 0) ? true : false;
+            if (dividend > int.MaxValue) dividend = int.MaxValue;
+            if (dividend <= int.MinValue) { isM1 = true;  dividend = int.MaxValue; }
+
+            if (isM1) dividend = Math.Abs(dividend);
+            if (isM2) divisor = Math.Abs(divisor);
+            if (dividend < divisor) return 0;
+            var count = 0;
+            if (divisor == 1) count = dividend;
+            else { 
+                while (dividend > 0)
+                {
+                    dividend = dividend - divisor;
+                    count++;
+                }
+                if (dividend != 0) count--;
+            }
+            return (isM1 ^ isM2) ? -count : count;
+        
+        }
+        
     }
 }
