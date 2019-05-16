@@ -1,0 +1,2 @@
+*.csproj    	#ignore all csproj files
+*.sln  		#ignore all sln files
