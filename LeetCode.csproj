@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\P1054_DistantBarcodes.cs" />
     <Compile Include="Array\P11_ContainerWithMostWater.cs" />
     <Compile Include="Array\P121_BestTimeBuyAndSell.cs" />
     <Compile Include="Array\P122_BestTimeBuyAndSell.cs" />
@@ -64,24 +65,25 @@
     <Compile Include="Array\P45_JumpGame2.cs" />
     <Compile Include="Array\P55_JumpGame.cs" />
     <Compile Include="Array\P665_NonDecreasingArray.cs" />
+    <Compile Include="Array\P739_Daily_Temperatures.cs" />
     <Compile Include="Array\P771_Jewels_Stones.cs" />
     <Compile Include="Array\P80_RemoveDuplicates2.cs" />
     <Compile Include="Array\P189_RotateArray.cs" />
     <Compile Include="BaseClass\BinaryHeap.cs" />
     <Compile Include="BaseClass\QuickSort.cs" />
     <Compile Include="ListPro\P21_Merge2SortedList.cs" />
+    <Compile Include="MathPro\P1053.cs" />
     <Compile Include="MathPro\P165_CompareVersionNumbers.cs" />
     <Compile Include="MathPro\P258_Add_Digits.cs" />
+    <Compile Include="MathPro\P415_AddStrings.cs" />
     <Compile Include="MathPro\P43_MultiplyStrings.cs" />
     <Compile Include="MathPro\P66_PlusOne.cs" />
     <Compile Include="MathPro\P67_AddBinary.cs" />
-    <Compile Include="MathPro\P69_Divide2Integers.cs" />
     <Compile Include="MathPro\P7_ReverseInt.cs" />
     <Compile Include="MathPro\P8_String2Int.cs" />
     <Compile Include="P20_ValidParentheses.cs" />
     <Compile Include="Array\P27_RemoveElement.cs" />
     <Compile Include="P945MinIncrement.cs" />
-    <Compile Include="LongestCommonSubsequence.cs" />
     <Compile Include="P657_RobotReturnToOrigin.cs" />
     <Compile Include="P12_IntegerToRoman.cs" />
     <Compile Include="Program.cs" />
