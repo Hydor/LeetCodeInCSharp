@@ -90,6 +90,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DynamicProgramming\P887_SuperEggDrop.cs" />
     <Compile Include="StrPro\P14_LongestCommonPrefix.cs" />
+    <Compile Include="TreePro\P144.cs" />
     <Compile Include="StrPro\P151_ReverseWordsString.cs" />
     <Compile Include="StrPro\P186ReverseWords.cs" />
     <Compile Include="StrPro\P205_IsomorphicStrings.cs" />
@@ -100,6 +101,9 @@
     <Compile Include="StrPro\P387_FirstUniqueChar.cs" />
     <Compile Include="StrPro\P58_LengthofLastWord.cs" />
     <Compile Include="StrPro\P68_TextJustification.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="StrPro\HTMLPage1.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

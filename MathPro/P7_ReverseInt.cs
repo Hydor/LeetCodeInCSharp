@@ -7,7 +7,7 @@ namespace LeetCode.MathPro
         //100%   98%
         public static int Reverse(int x)
         {
-                long result = 0l;
+                long result = 0;
                 while (x != 0)
                 {
                     result = result * 10 + x % 10;
