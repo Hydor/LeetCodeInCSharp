@@ -72,6 +72,7 @@
     <Compile Include="BaseClass\BinaryHeap.cs" />
     <Compile Include="BaseClass\QuickSort.cs" />
     <Compile Include="BinarySearch\P278_FirstBadVersion.cs" />
+    <Compile Include="BinarySearch\P35_FindInsertIndex.cs" />
     <Compile Include="ListPro\P21_Merge2SortedList.cs" />
     <Compile Include="MathPro\P1053.cs" />
     <Compile Include="MathPro\P165_CompareVersionNumbers.cs" />
