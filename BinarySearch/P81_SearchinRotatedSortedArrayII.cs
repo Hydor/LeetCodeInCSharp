@@ -8,6 +8,7 @@ namespace LeetCode.BinarySearch
 {
     class P81_SearchinRotatedSortedArrayII
     {
+        //Binary Search  
         public static bool Search(int[] nums, int target)
         {
             if (nums == null || nums.Length == 0)
@@ -59,10 +60,21 @@ namespace LeetCode.BinarySearch
         }
 
 
-        //
+        //Brute Force
         public static bool Search2 (int[] nums, int target)
         {
-
+            if (nums == null || nums.Length == 0)
+            {
+                return false;
+            }
+            foreach (var i in nums)
+            {
+                if (i == target)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }
