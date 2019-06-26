@@ -3,6 +3,8 @@ namespace LeetCode.BinarySearch
 {
     class P35_FindInsertIndex
     {
+        // BUG: 1. if the condition for stop loop is (start < end), it will cause Time Limit Exceeded , Endless loop
+        //      2. if conditions setting need pay attention to Interval(区间)
         public static int SearchInsert(int[] nums, int target)
         {
             if (nums == null || nums.Length == 0)
