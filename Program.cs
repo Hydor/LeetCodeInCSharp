@@ -14,7 +14,7 @@ namespace LeetCode
                 var a = new int[] {1, 2, 3, 4 ,5};
                 var strarr = new string[] { "Science", "is", "what", "we", "understand", "well", "enough", "to", "explain", "to", "a", "computer.", "Art", "is", "everything", "else", "we", "do" };
                 
-                Console.WriteLine(BinarySearch.P35_FindInsertIndex.SearchInsert(a,1));
+                Console.WriteLine(BinarySearch.P81_SearchinRotatedSortedArrayII.Search(a,5));
                 var str = Console.ReadLine();
                 var str2 = Console.ReadLine();
             }
