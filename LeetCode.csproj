@@ -98,6 +98,7 @@
     <Compile Include="StrPro\P14_LongestCommonPrefix.cs" />
     <Compile Include="StrPro\P443_StringCompression.cs" />
     <Compile Include="StrPro\P819_MostCommonWord.cs" />
+    <Compile Include="TreePro\P100_SameTree.cs" />
     <Compile Include="TreePro\P144.cs" />
     <Compile Include="StrPro\P151_ReverseWordsString.cs" />
     <Compile Include="StrPro\P186ReverseWords.cs" />
