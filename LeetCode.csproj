@@ -97,6 +97,7 @@
     <Compile Include="DynamicProgramming\P887_SuperEggDrop.cs" />
     <Compile Include="StrPro\P14_LongestCommonPrefix.cs" />
     <Compile Include="StrPro\P443_StringCompression.cs" />
+    <Compile Include="StrPro\P819_MostCommonWord.cs" />
     <Compile Include="TreePro\P144.cs" />
     <Compile Include="StrPro\P151_ReverseWordsString.cs" />
     <Compile Include="StrPro\P186ReverseWords.cs" />
@@ -108,6 +109,7 @@
     <Compile Include="StrPro\P387_FirstUniqueChar.cs" />
     <Compile Include="StrPro\P58_LengthofLastWord.cs" />
     <Compile Include="StrPro\P68_TextJustification.cs" />
+    <Compile Include="TreePro\P145_BinaryTreePostorderTraversal.cs" />
     <Compile Include="TreePro\P94_BinaryTreeInorderTraversal.cs" />
   </ItemGroup>
   <ItemGroup>
