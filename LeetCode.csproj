@@ -78,6 +78,7 @@
     <Compile Include="BinarySearch\P35_FindInsertIndex.cs" />
     <Compile Include="BinarySearch\P81_SearchinRotatedSortedArrayII.cs" />
     <Compile Include="ListPro\P21_Merge2SortedList.cs" />
+    <Compile Include="ListPro\P2_TwoSum.cs" />
     <Compile Include="MathPro\P1053.cs" />
     <Compile Include="MathPro\P165_CompareVersionNumbers.cs" />
     <Compile Include="MathPro\P258_Add_Digits.cs" />
