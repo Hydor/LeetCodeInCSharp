@@ -15,7 +15,7 @@ namespace LeetCode.TreePro
     {
         public bool isBalanced;
         public int height;
-        public ResultType(bool b, int x) { isBalanced = b; height = x; }
+        public ResultType(bool b, int x) { isBalanced = b; height = x; }  //set function needed
     }
     public class P110_BalancedBinaryTree
     {
@@ -34,7 +34,7 @@ namespace LeetCode.TreePro
             var left = Helper(root.left);
             var right = Helper(root.right);
 
-            if (!left.isBalanced || !right.isBalanced)
+            if (!left.isBalanced || !right.isBalanced) //return condition
             {
                 return new ResultType(false, -1);
             }
