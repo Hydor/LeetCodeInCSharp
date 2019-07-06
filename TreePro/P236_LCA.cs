@@ -17,7 +17,7 @@ namespace LeetCode.TreePro
         // Divide & Conquer
         // there are 4 conditions
         // 1. left is not null (find something) and right is not null  -> return root.  root is Common Ancestor
-        // 2. left is not null    -> return left  
+        // 2. left is not null    -> return left    （find p or q or LCA（p,q））
         // 3. right is not null    -> return right  
         // 4. both null (find nothing)  -> return null
 
