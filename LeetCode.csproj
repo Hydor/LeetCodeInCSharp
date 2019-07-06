@@ -114,6 +114,7 @@
     <Compile Include="StrPro\P58_LengthofLastWord.cs" />
     <Compile Include="StrPro\P68_TextJustification.cs" />
     <Compile Include="TreePro\P145_BinaryTreePostorderTraversal.cs" />
+    <Compile Include="TreePro\P236_LCA.cs" />
     <Compile Include="TreePro\P94_BinaryTreeInorderTraversal.cs" />
   </ItemGroup>
   <ItemGroup>
