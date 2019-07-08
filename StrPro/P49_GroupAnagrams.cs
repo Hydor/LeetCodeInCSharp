@@ -11,8 +11,7 @@ namespace LeetCode.StrPro
 
         // 1. GetHashCode
         // 2. Dictionary.Values.ToArray
-        // 3. str.OrderBy(c => c)  
-        // 4. string.Concat(str.OrderBy(c => c))
+        // 3. str.OrderBy(c => c)   
 
 
         public IList<IList<string>> GroupAnagrams(string[] strs)
@@ -22,8 +21,8 @@ namespace LeetCode.StrPro
             if (strs.Count() == 0) return dict.Values.ToArray();
 
             foreach (var str in strs)
-            {
-                var key = string.Concat(str.OrderBy(c => c)).GetHashCode();
+            { 
+                var key =  str.OrderBy(c => c).ToString().GetHashCode();
                 if (dict.ContainsKey(key))
                 {
                     dict[key].Add(str);
