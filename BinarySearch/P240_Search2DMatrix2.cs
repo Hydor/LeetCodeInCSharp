@@ -47,7 +47,7 @@ namespace LeetCode.BinarySearch
                 if (matrix[rowEnd, j] == target) return true;
             }
             var q = new Stack<int>();
-            q.
+
 
             return false;
         }

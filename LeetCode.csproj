@@ -69,6 +69,7 @@
     <Compile Include="Array\P771_Jewels_Stones.cs" />
     <Compile Include="Array\P80_RemoveDuplicates2.cs" />
     <Compile Include="Array\P189_RotateArray.cs" />
+    <Compile Include="Array\P912_SortArray.cs" />
     <Compile Include="BaseClass\BinaryHeap.cs" />
     <Compile Include="BaseClass\QuickSort.cs" />
     <Compile Include="BinarySearch\P153_FindMinimuminRotatedSortedArray.cs" />
