@@ -73,6 +73,7 @@
     <Compile Include="BaseClass\BinaryHeap.cs" />
     <Compile Include="BaseClass\QuickSort.cs" />
     <Compile Include="BinarySearch\P153_FindMinimuminRotatedSortedArray.cs" />
+    <Compile Include="BinarySearch\P167_TwoSumII.cs" />
     <Compile Include="BinarySearch\P240_Search2DMatrix2.cs" />
     <Compile Include="BinarySearch\P278_FirstBadVersion.cs" />
     <Compile Include="BinarySearch\P33_SearchinRotatedArray.cs" />
