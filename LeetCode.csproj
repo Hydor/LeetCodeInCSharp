@@ -107,6 +107,7 @@
     <Compile Include="StrPro\P49_GroupAnagrams.cs" />
     <Compile Include="StrPro\P819_MostCommonWord.cs" />
     <Compile Include="TreePro\P100_SameTree.cs" />
+    <Compile Include="TreePro\P101_SymmetricTree.cs" />
     <Compile Include="TreePro\P104_MaxDepthofBinaryTree.cs" />
     <Compile Include="TreePro\P110_BalancedBinaryTree.cs" />
     <Compile Include="TreePro\P144.cs" />

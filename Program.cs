@@ -16,8 +16,13 @@ namespace LeetCode
                 var ab = new int[] { 7, 9, 1, 2, 6, 3, 4, 5 };
                 var arr2D = new int[,] { { 1, 4, 7, 11,15 }, { 2, 5, 8, 12,19 }, { 3, 6, 9, 16 ,22}, { 10, 13, 14, 17 ,24}, { 18, 21, 23, 26 ,31} };
                 var strarr = new string[] { "Science", "is", "what", "we", "understand", "well", "enough", "to", "explain", "to", "a", "computer.", "Art", "is", "everything", "else", "we", "do" };
-                
-                Console.WriteLine(Array.P912_SortArray.SortArray(ab));
+
+               //var node = new TreePro.P101_SymmetricTree.TreeNode(1);
+               // node.left = new TreePro.P101_SymmetricTree.TreeNode(2);
+               // node.right = new TreePro.P101_SymmetricTree.TreeNode(2);
+              //  node.left.left = new TreePro.P101_SymmetricTree.TreeNode(3);
+
+                //Console.WriteLine(TreePro.P101_SymmetricTree.IsSymmetric(node));
 
                 foreach (var i in ab)
                 {
