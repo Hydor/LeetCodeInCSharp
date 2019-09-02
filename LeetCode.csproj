@@ -61,6 +61,7 @@
     <Compile Include="Array\P275_HIndex2.cs" />
     <Compile Include="Array\P277_FindCelebrity.cs" />
     <Compile Include="Array\P299_BullsAndCows.cs" />
+    <Compile Include="Array\P349_IntersectionTwoArrays.cs" />
     <Compile Include="Array\P41_FirstMissingPositive.cs" />
     <Compile Include="Array\P45_JumpGame2.cs" />
     <Compile Include="Array\P55_JumpGame.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Array\P80_RemoveDuplicates2.cs" />
     <Compile Include="Array\P189_RotateArray.cs" />
     <Compile Include="Array\P912_SortArray.cs" />
+    <Compile Include="Array\P977_SquaresSortedArray.cs" />
     <Compile Include="BaseClass\BinaryHeap.cs" />
     <Compile Include="BaseClass\QuickSort.cs" />
     <Compile Include="BFS\P102_BinaryTreeLevelOrderTraversal.cs" />
