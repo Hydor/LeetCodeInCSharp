@@ -125,6 +125,7 @@
     <Compile Include="TreePro\P226_InvertBinaryTree.cs" />
     <Compile Include="TreePro\P235_LCAofBinarySearchTree.cs" />
     <Compile Include="TreePro\P236_LCA.cs" />
+    <Compile Include="TreePro\P257_BinaryTreePaths.cs" />
     <Compile Include="TreePro\P94_BinaryTreeInorderTraversal.cs" />
   </ItemGroup>
   <ItemGroup>
