@@ -110,6 +110,7 @@
     <Compile Include="TreePro\P101_SymmetricTree.cs" />
     <Compile Include="TreePro\P104_MaxDepthofBinaryTree.cs" />
     <Compile Include="TreePro\P110_BalancedBinaryTree.cs" />
+    <Compile Include="TreePro\P112PathSum.cs" />
     <Compile Include="TreePro\P144.cs" />
     <Compile Include="StrPro\P151_ReverseWordsString.cs" />
     <Compile Include="StrPro\P186ReverseWords.cs" />
