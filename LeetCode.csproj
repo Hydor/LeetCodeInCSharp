@@ -75,6 +75,8 @@
     <Compile Include="BaseClass\BinaryHeap.cs" />
     <Compile Include="BaseClass\QuickSort.cs" />
     <Compile Include="BFS\P102_BinaryTreeLevelOrderTraversal.cs" />
+    <Compile Include="BFS\P103BinaryTreeZigzagLevelOrderTraversal.cs" />
+    <Compile Include="BFS\P107.cs" />
     <Compile Include="BinarySearch\P153_FindMinimuminRotatedSortedArray.cs" />
     <Compile Include="BinarySearch\P162_FindPeakElement.cs" />
     <Compile Include="BinarySearch\P167_TwoSumII.cs" />
