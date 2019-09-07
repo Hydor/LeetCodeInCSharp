@@ -94,6 +94,7 @@
     <Compile Include="MathPro\P67_AddBinary.cs" />
     <Compile Include="MathPro\P7_ReverseInt.cs" />
     <Compile Include="MathPro\P8_String2Int.cs" />
+    <Compile Include="P146_LRU_Cache.cs" />
     <Compile Include="P20_ValidParentheses.cs" />
     <Compile Include="Array\P27_RemoveElement.cs" />
     <Compile Include="P945MinIncrement.cs" />
@@ -110,6 +111,7 @@
     <Compile Include="TreePro\P101_SymmetricTree.cs" />
     <Compile Include="TreePro\P104_MaxDepthofBinaryTree.cs" />
     <Compile Include="TreePro\P110_BalancedBinaryTree.cs" />
+    <Compile Include="TreePro\P111_MinimumDepthBinaryTree.cs" />
     <Compile Include="TreePro\P112PathSum.cs" />
     <Compile Include="TreePro\P144.cs" />
     <Compile Include="StrPro\P151_ReverseWordsString.cs" />
