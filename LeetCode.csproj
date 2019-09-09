@@ -110,6 +110,7 @@
     <Compile Include="StrPro\P443_StringCompression.cs" />
     <Compile Include="StrPro\P49_GroupAnagrams.cs" />
     <Compile Include="StrPro\P819_MostCommonWord.cs" />
+    <Compile Include="TopoSorting\P207_CourseSchedule.cs" />
     <Compile Include="TopoSorting\P210_Course_ScheduleII.cs" />
     <Compile Include="TreePro\P100_SameTree.cs" />
     <Compile Include="TreePro\P101_SymmetricTree.cs" />
