@@ -9,23 +9,23 @@ namespace LeetCode
     class LRUCache
     {
         
-            private int capacity;
-            public LRUCache(int capacity)
-            {
+            //private int capacity;
+            //public LRUCache(int capacity)
+            //{
             
-                this.capacity = capacity;
-            }
+            //    this.capacity = capacity;
+            //}
 
-            public int Get(int key)
-            {
-                if
-                return capacity.de
-            }
+            //public int Get(int key)
+            //{
+            //    if
+            //    return capacity.de
+            //}
 
-            public void Put(int key, int value)
-            {
+            //public void Put(int key, int value)
+            //{
 
-            }
+            //}
         
 
     }
