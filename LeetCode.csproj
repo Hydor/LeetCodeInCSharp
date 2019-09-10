@@ -78,6 +78,7 @@
     <Compile Include="BFS\P103BinaryTreeZigzagLevelOrderTraversal.cs" />
     <Compile Include="BFS\P107.cs" />
     <Compile Include="BFS\P199BinaryTreeRightSideView.cs" />
+    <Compile Include="BFS\P200_NumberofIslands.cs" />
     <Compile Include="BinarySearch\P153_FindMinimuminRotatedSortedArray.cs" />
     <Compile Include="BinarySearch\P162_FindPeakElement.cs" />
     <Compile Include="BinarySearch\P167_TwoSumII.cs" />
