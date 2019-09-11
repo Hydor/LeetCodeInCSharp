@@ -15,21 +15,48 @@ namespace LeetCode
 
                 var ab = new int[] { 7, 9, 1, 2, 6, 3, 4, 5 };
                 var arr2D = new int[,] { { 1, 4, 7, 11, 15 }, { 2, 5, 8, 12, 19 }, { 3, 6, 9, 16, 22 }, { 10, 13, 14, 17, 24 }, { 18, 21, 23, 26, 31 } };
-               var strarr = new string[] {"11110", "11010", "11000", "00000"};
+                
+                var strarr = new string[] {"11110", "11010", "11000", "00000"};
                 //var c = strarr[1].ToCharArray();
-                var chars = new char[4][];
-                for (var i = 0; i < 4; i++)
-                {
-                    chars[i] = strarr[i].ToCharArray();
-                }
- 
+                var ins = new int[4][];
+                ins[0] = new int[4];
+
+                ins[2] = new int[4];
+
+                ins[1] = new int[4];
+
+                ins[3] = new int[4];
+
+               
+
+                ins[0][0] = 2147483647;
+                ins[0][1] = -1;
+                ins[0][2] = 0;
+                ins[0][3] = 2147483647;
+
+                ins[1][0] = 2147483647;
+                ins[1][1] = 2147483647;
+                ins[1][2] = 2147483647;
+                ins[1][3] = -1;
+
+                ins[2][0] = 2147483647;
+                ins[2][1] = -1;
+                ins[2][2] = 2147483647;
+                ins[2][3] = -1;
+
+                ins[3][0] = 0;
+                ins[3][1] = -1;
+                ins[3][2] = 2147483647;
+                ins[3][3] = 2147483647;
+
+
                 Console.WriteLine(Convert.ToChar(97));
                 //var node = new TreePro.P101_SymmetricTree.TreeNode(1);
                 // node.left = new TreePro.P101_SymmetricTree.TreeNode(2);
                 // node.right = new TreePro.P101_SymmetricTree.TreeNode(2);
                 //  node.left.left = new TreePro.P101_SymmetricTree.TreeNode(3);
-
-                Console.WriteLine(BFS.P200_NumberofIslands.NumIslands(chars));
+                BFS.P286_WallsandGates.WallsAndGates(ins);
+                //Console.WriteLine(BFS.P286_WallsandGates.WallsAndGates(ins));
 
                 //foreach (var i in ab)
                 //{
