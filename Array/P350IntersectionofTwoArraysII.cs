@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LeetCode.Array
 {
     class P350IntersectionofTwoArraysII
     {
+
+        // Follow Up 1: if array is sorted 
+        //              binary search
         public int[] Intersect(int[] nums1, int[] nums2)
         {
             var minLength = Math.Min(nums1.Length, nums2.Length);
@@ -42,7 +42,7 @@ namespace LeetCode.Array
                     }
                 }
             }
-            Array.Resize(ref result, index);
+            System.Array.Resize(ref result, index);
             return result;
         }
 
