@@ -62,6 +62,7 @@
     <Compile Include="Array\P277_FindCelebrity.cs" />
     <Compile Include="Array\P299_BullsAndCows.cs" />
     <Compile Include="Array\P349_IntersectionTwoArrays.cs" />
+    <Compile Include="Array\P350IntersectionofTwoArraysII.cs" />
     <Compile Include="Array\P41_FirstMissingPositive.cs" />
     <Compile Include="Array\P45_JumpGame2.cs" />
     <Compile Include="Array\P55_JumpGame.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="BFS\P102_BinaryTreeLevelOrderTraversal.cs" />
     <Compile Include="BFS\P103BinaryTreeZigzagLevelOrderTraversal.cs" />
     <Compile Include="BFS\P107.cs" />
+    <Compile Include="BFS\P130SurroundedRegions.cs" />
     <Compile Include="BFS\P199BinaryTreeRightSideView.cs" />
     <Compile Include="BFS\P200_NumberofIslands.cs" />
     <Compile Include="BFS\P286_WallsandGates.cs" />
