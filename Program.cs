@@ -11,7 +11,7 @@ namespace LeetCode
                 //var number1 = Convert.ToInt32(Console.ReadLine());
                 //var number2 = Convert.ToInt32(Console.ReadLine());
 
-                var a = new int[] { 1, 2, 3, 4, 5 };
+                var a = new int[] {  1,3 };
 
                 var ab = new int[] { 7, 9, 1, 2, 6, 3, 4, 5 };
                 var arr2D = new int[,] { { 1, 4, 7, 11, 15 }, { 2, 5, 8, 12, 19 }, { 3, 6, 9, 16, 22 }, { 10, 13, 14, 17, 24 }, { 18, 21, 23, 26, 31 } };
@@ -58,7 +58,7 @@ namespace LeetCode
 
 
                 //Console.WriteLine(BFS.P130SurroundedRegions.Solve(c));
-                BFS.P130SurroundedRegions.Solve(c);
+                DFS.P40CombinationSumII.CombinationSum2(a,6);
               
                 var str2 = Console.ReadLine();
             }
