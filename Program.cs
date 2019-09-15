@@ -16,14 +16,9 @@ namespace LeetCode
                 var ab = new int[] { 7, 9, 1, 2, 6, 3, 4, 5 };
                 var arr2D = new int[,] { { 1, 4, 7, 11, 15 }, { 2, 5, 8, 12, 19 }, { 3, 6, 9, 16, 22 }, { 10, 13, 14, 17, 24 }, { 18, 21, 23, 26, 31 } };
                 
-                var strarr = new string[] {"OOOO", "XOOX", "XXOX", "XXXO"};
+                var strarr = new string[] { "abcd", "" };
 
-                var c = new char[4][];
-                for (var i = 0; i < 4; i++)
-                {
-                    c[i] = strarr[i].ToCharArray();
-                }
-
+          
                 //var c = strarr[1].ToCharArray();
                 var ins = new int[4][];
                 ins[0] = new int[4];
@@ -57,8 +52,8 @@ namespace LeetCode
                 ins[3][3] = 2147483647;
 
 
-                //Console.WriteLine(BFS.P130SurroundedRegions.Solve(c));
-                DFS.P40CombinationSumII.CombinationSum2(a,6);
+                Console.WriteLine(StrPro.P336PalindromePairs.PalindromePairs(strarr));
+                //DFS.P40CombinationSumII.CombinationSum2(a,6);
               
                 var str2 = Console.ReadLine();
             }
