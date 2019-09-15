@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LeetCode.DFS
 {
@@ -19,20 +16,20 @@ namespace LeetCode.DFS
 
         private static void Helper(string s, List<IList<string>> result, List<string> p, int startIndex)
         {
+            var partition = new List<string>(p);
             if (startIndex == s.Length)
             {
-                result.Add(new List<string>(p));
+                result.Add(partition);
                 return;
             }
-            var partition = new List<string>(p);
 
             for (var i = startIndex; i < s.Length; i++)
             {
-                var sub = s.Substring(startIndex, i- startIndex + 1);
+                var sub = s.Substring(startIndex, i- startIndex + 1);   // java's substring(startIndex, endIndex)      C#'s Substring(startIndex, SubLength)
                 if (!IsPalindrome(sub)) continue;
                 partition.Add(sub);
                 Helper(s, result, partition, i + 1);
-                partition.RemoveAt(partition.Count() - 1);       // Better to write as RemoveAt , but not Remove(x.Last())
+                partition.RemoveAt(partition.Count() - 1);       // Better to write as RemoveAt , but not Remove(x.Last()) cuz sometime it may remove the first element
             }
 
         }
