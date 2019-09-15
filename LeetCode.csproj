@@ -90,6 +90,7 @@
     <Compile Include="BinarySearch\P33_SearchinRotatedArray.cs" />
     <Compile Include="BinarySearch\P35_FindInsertIndex.cs" />
     <Compile Include="BinarySearch\P81_SearchinRotatedSortedArrayII.cs" />
+    <Compile Include="DFS\P131PalindromePartitioning.cs" />
     <Compile Include="DFS\P39CombinationSum.cs" />
     <Compile Include="DFS\P40CombinationSumII.cs" />
     <Compile Include="DFS\P78Subsets.cs" />

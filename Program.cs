@@ -52,8 +52,8 @@ namespace LeetCode
                 ins[3][3] = 2147483647;
 
 
-                Console.WriteLine(StrPro.P336PalindromePairs.PalindromePairs(strarr));
-                //DFS.P40CombinationSumII.CombinationSum2(a,6);
+                // Console.WriteLine(StrPro.P336PalindromePairs.PalindromePairs(strarr));
+                DFS.P131PalindromePartitioning.Partition("cbbbcc");
               
                 var str2 = Console.ReadLine();
             }
