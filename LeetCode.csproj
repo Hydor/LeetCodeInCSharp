@@ -61,6 +61,7 @@
     <Compile Include="Array\P275_HIndex2.cs" />
     <Compile Include="Array\P277_FindCelebrity.cs" />
     <Compile Include="Array\P299_BullsAndCows.cs" />
+    <Compile Include="Array\P31NextPermutation.cs" />
     <Compile Include="Array\P349_IntersectionTwoArrays.cs" />
     <Compile Include="Array\P350IntersectionofTwoArraysII.cs" />
     <Compile Include="Array\P41_FirstMissingPositive.cs" />
