@@ -95,6 +95,7 @@
     <Compile Include="DFS\P40CombinationSumII.cs" />
     <Compile Include="DFS\P77Combinations.cs" />
     <Compile Include="DFS\P78Subsets.cs" />
+    <Compile Include="DFS\P90SubsetsII.cs" />
     <Compile Include="ListPro\P21_Merge2SortedList.cs" />
     <Compile Include="ListPro\P2_TwoSum.cs" />
     <Compile Include="MathPro\P1053.cs" />
