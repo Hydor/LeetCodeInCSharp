@@ -19,7 +19,7 @@ namespace LeetCode.DFS
                 return result;
             }
 
-            Array.Sort(nums);  // sort array first
+            System.Array.Sort(nums);  // sort array first
             var set = new HashSet<string>();     // use Hashset to dedup
             DFSHelper(nums, result, new List<int>(), 0, set, "");
 
