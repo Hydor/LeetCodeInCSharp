@@ -17,7 +17,7 @@ namespace LeetCode.DFS
                 return result;
             }
 
-            Array.Sort(nums);
+            System.Array.Sort(nums);
 
             var visited = new bool[nums.Length];
             DFSHelper(nums, result, new List<int>(), visited);

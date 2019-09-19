@@ -52,7 +52,7 @@ namespace LeetCode
                 ins[3][3] = 2147483647;
 
 
-                // Console.WriteLine(StrPro.P336PalindromePairs.PalindromePairs(strarr));
+                Console.WriteLine(StrPro.P3LongestSubstringWithoutRepeatinCharacters.LengthOfLongestSubstring("abcdaqa"));
                 DFS.P131PalindromePartitioning.Partition("cbbbcc");
               
                 var str2 = Console.ReadLine();
