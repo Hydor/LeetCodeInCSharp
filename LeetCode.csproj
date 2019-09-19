@@ -95,6 +95,7 @@
     <Compile Include="DFS\P39CombinationSum.cs" />
     <Compile Include="DFS\P40CombinationSumII.cs" />
     <Compile Include="DFS\P46Permutations.cs" />
+    <Compile Include="DFS\P47PermutationsII.cs" />
     <Compile Include="DFS\P77Combinations.cs" />
     <Compile Include="DFS\P78Subsets.cs" />
     <Compile Include="DFS\P90SubsetsII.cs" />
