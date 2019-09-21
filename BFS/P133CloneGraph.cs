@@ -22,46 +22,42 @@ namespace LeetCode.BFS
         }
             public static Node CloneGraph(Node node)
             {
+            if (node == null) return new Node();
+            var map = new Dictionary<Node, Node>();  // mapping relationship key = old node, v = new  
+            map.Add(node, new Node());
+            var queue = new Queue<Node>();
+            queue.Enqueue(node);
 
-                if (node == null) return new Node();
-                var hashset = new HashSet<int>();
-
-                var result = new Node(node.val, new List<Node>());
-                var queue = new Queue<Node>();
-                queue.Enqueue(node);
-
-
-            //dict
-            var isFirstNode = true;
-                while (queue.Any())
+            // copy all nodes
+            while (queue.Any())
+            {
+                var curr = queue.Dequeue();
+                foreach (var nb in curr.neighbors)
                 {
-                    var size = queue.Count();
-                    for (var i = 0; i < size; i++)
-                    {
-                        var curr = queue.Dequeue();
-                        var nodeList = new List<Node>();
-                        var newNode = new Node(curr.val, new List<Node>(curr.neighbors));
-                        if (isFirstNode)
-                        {
-                            result = newNode;
-                            isFirstNode = false;
-
-                        } 
-
-                        foreach (var n in curr.neighbors)
-                        {
-                        nodeList.Add(n);
-                            if (hashset.Contains(n.val)) continue;
-                            queue.Enqueue(n);
-                            hashset.Add(n.val);
-                        }
-
-                    }
+                    if (map.ContainsKey(nb)) continue;
+                    map.Add(nb, new Node());
+                    queue.Enqueue(nb);
                 }
-                return result;
             }
 
+            // add their neighbors relationship to these new nodes        
+            foreach (var item in map)
+            {
+                item.Value.val = item.Key.val;
+
+                List<Node> neighbors = new List<Node>();
+                foreach (var neighbor in item.Key.neighbors)
+                {
+                    neighbors.Add(map[neighbor]);
+                }
+
+                item.Value.neighbors = neighbors;
+            }
+
+
+            return map[node];
         }
-    
+
+    }
 
 }
