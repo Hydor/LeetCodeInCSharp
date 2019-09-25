@@ -79,6 +79,7 @@
     <Compile Include="BFS\P102_BinaryTreeLevelOrderTraversal.cs" />
     <Compile Include="BFS\P103BinaryTreeZigzagLevelOrderTraversal.cs" />
     <Compile Include="BFS\P107.cs" />
+    <Compile Include="BFS\P127_WordLadder.cs" />
     <Compile Include="BFS\P130SurroundedRegions.cs" />
     <Compile Include="BFS\P133CloneGraph.cs" />
     <Compile Include="BFS\P199BinaryTreeRightSideView.cs" />
@@ -92,6 +93,7 @@
     <Compile Include="BinarySearch\P33_SearchinRotatedArray.cs" />
     <Compile Include="BinarySearch\P35_FindInsertIndex.cs" />
     <Compile Include="BinarySearch\P81_SearchinRotatedSortedArrayII.cs" />
+    <Compile Include="DFS\P1202Smallest.cs" />
     <Compile Include="DFS\P131PalindromePartitioning.cs" />
     <Compile Include="DFS\P133CloneGph.cs" />
     <Compile Include="DFS\P39CombinationSum.cs" />
@@ -102,10 +104,12 @@
     <Compile Include="DFS\P78Subsets.cs" />
     <Compile Include="DFS\P90SubsetsII.cs" />
     <Compile Include="HashMapPro\P36ValidSudoku.cs" />
+    <Compile Include="ListPro\P1200MinimumAbsoluteDifference.cs" />
     <Compile Include="ListPro\P206ReverseLinkedList.cs" />
     <Compile Include="ListPro\P21_Merge2SortedList.cs" />
     <Compile Include="ListPro\P2_TwoSum.cs" />
     <Compile Include="MathPro\P1053.cs" />
+    <Compile Include="MathPro\P1201_UglyNumberIII.cs" />
     <Compile Include="MathPro\P165_CompareVersionNumbers.cs" />
     <Compile Include="MathPro\P258_Add_Digits.cs" />
     <Compile Include="MathPro\P415_AddStrings.cs" />
@@ -129,6 +133,7 @@
     <Compile Include="StrPro\P443_StringCompression.cs" />
     <Compile Include="StrPro\P49_GroupAnagrams.cs" />
     <Compile Include="StrPro\P819_MostCommonWord.cs" />
+    <Compile Include="StrPro\PSmallestStringWithSwaps.cs" />
     <Compile Include="TopoSorting\P207_CourseSchedule.cs" />
     <Compile Include="TopoSorting\P210_Course_ScheduleII.cs" />
     <Compile Include="TopoSorting\P269_AlienDictionary.cs" />

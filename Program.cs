@@ -25,8 +25,14 @@ namespace LeetCode
                     charf[i] = ifj[i].ToCharArray();
                 }
 
+                var ll = new List<int>() { 0, 1 };
 
-                HashMapPro.P36ValidSudoku.IsValidSudoku(charf);
+                var lll = new List<int>() { 1,2 };
+                var d = new List<IList<int>>();
+                d.Add(ll);
+                d.Add(lll);
+
+                StrPro.PSmallestStringWithSwaps.SmallestStringWithSwaps("cba",d);
 
                 var strarr = new string[] { "abcd" };
 
