@@ -65,6 +65,7 @@
     <Compile Include="Array\P349_IntersectionTwoArrays.cs" />
     <Compile Include="Array\P350IntersectionofTwoArraysII.cs" />
     <Compile Include="Array\P41_FirstMissingPositive.cs" />
+    <Compile Include="Array\P442FindAllDuplicates.cs" />
     <Compile Include="Array\P45_JumpGame2.cs" />
     <Compile Include="Array\P55_JumpGame.cs" />
     <Compile Include="Array\P665_NonDecreasingArray.cs" />
