@@ -13,7 +13,11 @@ namespace LeetCode.Array
 
             // 1. Brute Force O(n^2)
             // 2. HashSet  O(n)  . But extra O(n) space needed
-            // 3. Fast pointer, O(n)
+            // 3. Fast pointer, O(n) 
+            /*
+            dafa;lk
+                a;slk
+                */
 
 
             var result = new List<int>();

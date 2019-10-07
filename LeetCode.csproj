@@ -75,6 +75,7 @@
     <Compile Include="Array\P189_RotateArray.cs" />
     <Compile Include="Array\P912_SortArray.cs" />
     <Compile Include="Array\P977_SquaresSortedArray.cs" />
+    <Compile Include="Array\tem.cs" />
     <Compile Include="BaseClass\BinaryHeap.cs" />
     <Compile Include="BaseClass\QuickSort.cs" />
     <Compile Include="BFS\P102_BinaryTreeLevelOrderTraversal.cs" />
@@ -109,6 +110,7 @@
     <Compile Include="ListPro\P206ReverseLinkedList.cs" />
     <Compile Include="ListPro\P21_Merge2SortedList.cs" />
     <Compile Include="ListPro\P2_TwoSum.cs" />
+    <Compile Include="ListPro\P92_ReverseLinkedListII.cs" />
     <Compile Include="MathPro\P1053.cs" />
     <Compile Include="MathPro\P1201_UglyNumberIII.cs" />
     <Compile Include="MathPro\P165_CompareVersionNumbers.cs" />
@@ -133,6 +135,7 @@
     <Compile Include="StrPro\P3LongestSubstringWithoutRepeatinCharacters.cs" />
     <Compile Include="StrPro\P443_StringCompression.cs" />
     <Compile Include="StrPro\P49_GroupAnagrams.cs" />
+    <Compile Include="StrPro\P722RemoveComments.cs" />
     <Compile Include="StrPro\P819_MostCommonWord.cs" />
     <Compile Include="StrPro\PSmallestStringWithSwaps.cs" />
     <Compile Include="TopoSorting\P207_CourseSchedule.cs" />
